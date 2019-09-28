@@ -29,11 +29,11 @@ get '/say/:number/:phrase' do
 
 if params [:operation] = 'add'
     answer = (number1 + number2).to_s
-elsif params [:operation] = "subtract"
+elsif params [:operation] = 'subtract'
   answer = (number1 - number2).to_s
-elsif params [:operation] = "multiply"
+elsif params [:operation] = 'multiply'
   answer = (number1 * number2).to_s
-elsif params [:operation] = "divide"
+elsif params [:operation] = 'divide'
   answer = (number1 / number2).to_s
   end
 end
