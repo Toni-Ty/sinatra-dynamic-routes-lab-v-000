@@ -24,6 +24,22 @@ get '/say/:number/:phrase' do
   end
 
   get '/:operation/:number1/:number2' do
+    number1 = params[:number1].to_i
+    number2 = params[:number2].to_i
+
+if operation = "add"
+    answer = (number1 + number2).to_s
+elsif operation = "subtract"
+  answer = (number1 - number2).to_s
+elsif operation = "multiply"
+  answer = (number1 * number2).to_s
+elsif operation = "divide"
+  answer = (number1 / number2).to_s
+  end
+end
+end
+
+    
 
 
 
