@@ -37,5 +37,6 @@ get '/say/:number/:phrase' do
         when 'divide'
           answer = (number1 / number2).to_s
         end
+        answer
       end
     end
