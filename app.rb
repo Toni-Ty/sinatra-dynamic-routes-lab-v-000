@@ -27,7 +27,7 @@ get '/say/:number/:phrase' do
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
 
-if params [:operation] = "add"
+if params [:operation] = 'add'
     answer = (number1 + number2).to_s
 elsif operation = "subtract"
   answer = (number1 - number2).to_s
