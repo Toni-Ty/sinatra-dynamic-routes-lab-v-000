@@ -16,6 +16,6 @@ end
     params[:number].to_i do
       result += params[:phrase]
     end
-
+    result
   end
   
