@@ -20,4 +20,3 @@ get '/say/:number/:phrase' do
 
     answer
   end
-
