@@ -11,4 +11,4 @@ class App < Sinatra::Base
     @number = params[:number].to_i
     erb: square
   end
-  enddyn
+  end
